@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --cor-verde: green;
+
+}
 body{
     height: 100vh;
     display: flex;
@@ -11,3 +15,7 @@ body{
     flex-direction: column;
     gap: 20px;
 }
+.cor{
+    background-color: var(--cor-verde);
+}
+
